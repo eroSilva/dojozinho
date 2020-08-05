@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "properties": {
+    "todo": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "chance": "guid"
+        },
+        "text": { "type": "string" },
+        "strike": { "type": "boolean" }
+      },
+      "requiries": ["id", "text", "strike"]
+    }
+  },
+  "requiries": ["todo"]
+}

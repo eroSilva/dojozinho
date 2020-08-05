@@ -1,0 +1,13 @@
+.app-paragraph {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0 8px;
+  border: 1px solid #ced4da;
+  background-color: #e9ecef;
+}
+
+.app-paragraph-line-through {
+  text-decoration: line-through;
+}
